@@ -19,7 +19,7 @@ public class DieClient{
         numDoubles++;
       }
     }
-System.out.println("\n% of heads = " + (numDoubles/(double)num_rolls*100) + "%");
+System.out.println("\n% of doubles = " + (numDoubles/(double)num_rolls*100) + "%");
   }
 
 }
