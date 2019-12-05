@@ -3,26 +3,26 @@ public class BankAccountClient {
 public String firstName;
 public String lastName;
 public Account acc;
-public double customerBalance = acc.balance;
+public double Balance = acc.balance;
 int defaultBalance = 100;
 
 
-public Customer(String firstName, String lastName) {
+public BankAccountClient(String firstName, String lastName) {
     this.firstName = firstName;
     this.lastName = lastName;
  }
 
 
-public Customer() {
+public BankAccountClient() {
     firstName = "Bob";
     lastName = "Jones";
  }
 
 
-public void addAccount(double initialBalance) {
+public void addAccount(double Balance) {
     acc = new Account();
     acc.accountId = "Account ID: " + Account.getNextId();
-    customerBalance = initialBalance;
+    Balance = initialBalance;
  }
 
 
